@@ -4,7 +4,6 @@ import 'package:crypto_coins_list/repositories/crypto_coins/crypto_coins.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:intl/intl.dart';
 
 class CryptoCoinScreen extends StatefulWidget {
   const CryptoCoinScreen({super.key});

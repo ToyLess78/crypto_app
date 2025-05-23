@@ -27,7 +27,7 @@ class CryptoCoinDetailsBloc
           await coinsRepository.getCoinDetails(event.currencyCode);
 
       emit(CryptoCoinDetailsLoaded(coinDetails));
-    } catch (e, st) {
+    } catch (e) {
       emit(CryptoCoinDetailsLoadingFailure(e));
     }
   }
